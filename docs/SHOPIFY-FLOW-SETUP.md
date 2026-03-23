@@ -49,7 +49,8 @@ Tag: "encuesta-recomendacion"
 **Opción B - Enviar Email al Equipo:**
 ```
 Action: Send internal email
-To: gal.la@retorn.com
+Before: gal.la@retorn.com
+Now to: info@retorn.com
 Subject: 🎯 Nuevo pedido desde encuesta
 Body: 
   Cliente: {{ order.customer.name }}

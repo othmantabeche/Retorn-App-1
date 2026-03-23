@@ -49,7 +49,8 @@ Tag: encuesta-retorn
 **OPCIÓN B - Enviar Email:**
 ```
 Action: Send internal email
-To: gal.la@retorn.com
+Before: gal.la@retorn.com
+Now to:  info@retorn.com
 Subject: 🎯 Nuevo pedido desde encuesta
 Body: 
   Pedido: {{ order.name }}

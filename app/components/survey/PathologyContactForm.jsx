@@ -100,7 +100,7 @@ export default function PathologyContactForm({ answers, onBack }) {
       console.log("📧 Enviando formulario a FormSubmit...", formDataToSend);
 
       // Enviar directamente a FormSubmit usando su AJAX endpoint
-      const response = await fetch("https://formsubmit.co/ajax/gal.la@retorn.com", {
+      const response = await fetch("https://formsubmit.co/ajax/info@retorn.com", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
@@ -128,7 +128,7 @@ export default function PathologyContactForm({ answers, onBack }) {
     } catch (error) {
       console.error("❌ Error al enviar formulario:", error);
       alert(
-        "Hubo un error al enviar el formulario. Por favor, inténtalo de nuevo o contacta directamente a gal.la@retorn.com"
+        "Hubo un error al enviar el formulario. Por favor, inténtalo de nuevo o contacta directamente a info@retorn.com"
       );
     } finally {
       setIsSubmitting(false);
